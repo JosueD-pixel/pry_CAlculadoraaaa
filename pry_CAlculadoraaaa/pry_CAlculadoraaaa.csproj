@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClaseA.cs" />
+    <Compile Include="clsCalculadora.cs" />
     <Compile Include="clsCalculadoracs.cs" />
     <Compile Include="ejemplo.cs" />
     <Compile Include="frmCalculadora.cs">
