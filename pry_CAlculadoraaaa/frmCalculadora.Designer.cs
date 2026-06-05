@@ -43,9 +43,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 39);
+            this.label1.Location = new System.Drawing.Point(79, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 16);
+            this.label1.Size = new System.Drawing.Size(78, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Numero 1";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -53,47 +53,51 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 104);
+            this.label2.Location = new System.Drawing.Point(79, 130);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 16);
+            this.label2.Size = new System.Drawing.Size(78, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Numero 2";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(66, 334);
+            this.label3.Location = new System.Drawing.Point(74, 418);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(69, 16);
+            this.label3.Size = new System.Drawing.Size(82, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Resultado";
             // 
             // txtN1
             // 
-            this.txtN1.Location = new System.Drawing.Point(163, 36);
+            this.txtN1.Location = new System.Drawing.Point(183, 45);
+            this.txtN1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtN1.Name = "txtN1";
-            this.txtN1.Size = new System.Drawing.Size(285, 22);
+            this.txtN1.Size = new System.Drawing.Size(320, 26);
             this.txtN1.TabIndex = 3;
             // 
             // txtN2
             // 
-            this.txtN2.Location = new System.Drawing.Point(163, 101);
+            this.txtN2.Location = new System.Drawing.Point(183, 126);
+            this.txtN2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtN2.Name = "txtN2";
-            this.txtN2.Size = new System.Drawing.Size(285, 22);
+            this.txtN2.Size = new System.Drawing.Size(320, 26);
             this.txtN2.TabIndex = 4;
             // 
             // txtResult
             // 
-            this.txtResult.Location = new System.Drawing.Point(163, 331);
+            this.txtResult.Location = new System.Drawing.Point(183, 414);
+            this.txtResult.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtResult.Name = "txtResult";
-            this.txtResult.Size = new System.Drawing.Size(285, 22);
+            this.txtResult.Size = new System.Drawing.Size(320, 26);
             this.txtResult.TabIndex = 5;
             // 
             // btnMultiplicar
             // 
-            this.btnMultiplicar.Location = new System.Drawing.Point(163, 227);
+            this.btnMultiplicar.Location = new System.Drawing.Point(183, 284);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMultiplicar.Name = "btnMultiplicar";
-            this.btnMultiplicar.Size = new System.Drawing.Size(146, 60);
+            this.btnMultiplicar.Size = new System.Drawing.Size(164, 75);
             this.btnMultiplicar.TabIndex = 10;
             this.btnMultiplicar.Text = "Multiplicar";
             this.btnMultiplicar.UseVisualStyleBackColor = true;
@@ -101,9 +105,10 @@
             // 
             // btnDvidir
             // 
-            this.btnDvidir.Location = new System.Drawing.Point(315, 222);
+            this.btnDvidir.Location = new System.Drawing.Point(354, 278);
+            this.btnDvidir.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDvidir.Name = "btnDvidir";
-            this.btnDvidir.Size = new System.Drawing.Size(146, 70);
+            this.btnDvidir.Size = new System.Drawing.Size(164, 88);
             this.btnDvidir.TabIndex = 11;
             this.btnDvidir.Text = "Dividir";
             this.btnDvidir.UseVisualStyleBackColor = true;
@@ -111,9 +116,10 @@
             // 
             // btnSumar
             // 
-            this.btnSumar.Location = new System.Drawing.Point(163, 156);
+            this.btnSumar.Location = new System.Drawing.Point(183, 195);
+            this.btnSumar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSumar.Name = "btnSumar";
-            this.btnSumar.Size = new System.Drawing.Size(146, 65);
+            this.btnSumar.Size = new System.Drawing.Size(164, 81);
             this.btnSumar.TabIndex = 12;
             this.btnSumar.Text = "Sumar";
             this.btnSumar.UseVisualStyleBackColor = true;
@@ -121,9 +127,10 @@
             // 
             // btnRestar
             // 
-            this.btnRestar.Location = new System.Drawing.Point(315, 156);
+            this.btnRestar.Location = new System.Drawing.Point(354, 195);
+            this.btnRestar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnRestar.Name = "btnRestar";
-            this.btnRestar.Size = new System.Drawing.Size(146, 65);
+            this.btnRestar.Size = new System.Drawing.Size(164, 81);
             this.btnRestar.TabIndex = 13;
             this.btnRestar.Text = "Restar";
             this.btnRestar.UseVisualStyleBackColor = true;
@@ -131,9 +138,9 @@
             // 
             // frmCalculadora
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(607, 423);
+            this.ClientSize = new System.Drawing.Size(683, 529);
             this.Controls.Add(this.btnRestar);
             this.Controls.Add(this.btnSumar);
             this.Controls.Add(this.btnDvidir);
@@ -144,6 +151,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmCalculadora";
             this.Text = "Calculadora";
             this.Load += new System.EventHandler(this.Form1_Load);
