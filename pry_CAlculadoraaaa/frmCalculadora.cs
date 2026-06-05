@@ -42,13 +42,10 @@ namespace pry_CAlculadoraaaa
             clsCalculadoracs calc = new clsCalculadoracs(float.Parse(txtN1.Text), float.Parse(txtN2.Text));
             txtResult.Text = calc.dividir().ToString("");
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
 
-        }
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
